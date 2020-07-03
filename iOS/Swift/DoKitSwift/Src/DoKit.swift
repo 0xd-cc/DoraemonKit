@@ -48,6 +48,7 @@ public class DoKit {
         addPlugin(plugin: LogPlugin())
         
         addPlugin(plugin: ANRPlugin())
+        addPlugin(plugin: CPUPlugin())
         addPlugin(plugin: MemoryPlugin())
         addPlugin(plugin: UIProfilePlugin())
         setup()
